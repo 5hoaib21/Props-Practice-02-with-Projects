@@ -13,14 +13,14 @@ function App() {
 
 
   return (
-    <>
+    <div className='appContainer'>
       <h1>React World on the go</h1>
 
       <Suspense fallback={<h1>Countries are coming soon...</h1>}>
       <Countries countriesPromise={countriesPromise}></Countries>
       </Suspense>
 
-    </>
+    </div>
   )
 }
 

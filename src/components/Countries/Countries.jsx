@@ -8,11 +8,14 @@ const Countries = ({countriesPromise}) => {
 
 
   return (
-    <div className='countries'>
+
+    <div className='countriesContainer'>
       <h2>Hi i'm from Countries {countries.length}</h2>
+      <div className='countries'>
       {
      countries.map(country => <Country key={country.cca3.cca3} country={country}></Country>)
       }
+    </div>
     </div>
   );
 };
