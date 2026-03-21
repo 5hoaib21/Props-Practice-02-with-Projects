@@ -7,3 +7,10 @@
 .countryVisited{
   background-color: bisque;
 }
+
+.country img{
+  width: 320px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+}
